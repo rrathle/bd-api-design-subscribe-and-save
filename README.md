@@ -76,6 +76,8 @@ Review the following use case and its requirements:
 
 Using editor.swagger.io, you can export your file as JSON by going to File > Convert and save as JSON.
 
+ ![img1](/img1.png)
+
 RapiDocs only support JSON, but thankfully, we can write our code in YAML and export it as JSON without having to rewrite it.
 Your GitHub project already has a basic RapiDoc HTML document (index.html) that you can use to load and see your documentation. Save your YAML file in the same folder. Now open the RapiDoc file in your browser and load your JSON file into the document. You should see your documentation.
 
