@@ -79,11 +79,13 @@ Using editor.swagger.io, you can export your file as JSON by going to File > Con
  ![img1](/img1.png)
 
 RapiDocs only support JSON, but thankfully, we can write our code in YAML and export it as JSON without having to rewrite it.
+
 Your GitHub project already has a basic RapiDoc HTML document (index.html) that you can use to load and see your documentation. Save your YAML file in the same folder. Now open the RapiDoc file in your browser and load your JSON file into the document. You should see your documentation.
 
 ### PART E - Making your API Doc Publically Available
 
 With your document in hand, upload your JSON file to a public S3 folder. Once it’s uploaded, copy the URL for that file and add it to your index.html file in the tag api-doc and assign it to the spec-url key. If you try to reload your index.html file from your machine, you should see the URL at the top of the page, but the documentation won’t load. This is expected and its the state that we want this to be in at this moment.
+
 Now upload your index.html file into the same S3 bucket as your JSON file. Once that’s uploaded, find it’s URL and open that page. You should now see your page load your documentation. Try sending your link to someone else and see if they can load your page as well. If they can, you have successfully made your API documentation public.
 
 #### Extension
