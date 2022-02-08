@@ -4,7 +4,7 @@ This activity will explore designing and implementing operations for the Subscri
 
 ### PART A - Add a subscription!
 
-Until a customer can sign up for a subscription, our service is pretty useless. Let’s get started defining our first operation. The OpenAPI model will be defined in the model/classroom/subscribeAndSave/ directory of your classroom snippets package.
+Until a customer can sign up for a subscription, our service is pretty useless. Let’s get started defining our first operation. The OpenAPI model will be defined in the model/classroom/subscribeAndSave/ directory of your past Subscribe and Save project.
 
 Let’s dive into the AddSubscription operation and motivate it with a use case:
 
