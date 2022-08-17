@@ -2,6 +2,14 @@
 
 This activity will explore designing and implementing operations for the Subscribe & Save Service. With Subscribe & Save customers can set up regularly scheduled deliveries and earn savings. Customers save 5% on all subscriptions, but if they receive five or more products in one auto-delivery they save 15% off all items in that delivery. From diapers to toothpaste to dog treats, customers can subscribe to thousands of everyday products.
 
+### Install and Run
+
+This project does not require compiling, so feel free to open the project up in any text editor of your choosing (IntelliJ is a perfectly acceptable option here). 
+
+Before you start, try opening the `index.html` file in the browser. It should show you a functioning page with some API documentation.
+
+We will be using the following steps in our Code-Along. Feel free to follow along.
+
 ### PART A - Add a subscription!
 
 Until a customer can sign up for a subscription, our service is pretty useless. Let’s get started defining our first operation. The OpenAPI model will be defined in the model/classroom/subscribeAndSave/ directory of your past Subscribe and Save project.
